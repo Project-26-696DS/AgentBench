@@ -21,3 +21,12 @@ text-davinci-002:
         body:
             model: "text-davinci-002"
             max_tokens: 512
+
+
+magentic-one:
+    import: "./magentic_one.yaml"
+    parameters:
+        name: "gpt4-o"
+        body:
+            temperature: 0
+            max_tokens: 512
