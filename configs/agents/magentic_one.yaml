@@ -1,9 +1,7 @@
-module: src.client.agents 
-parameters: 
-  url: 
-  headers:
-    Content-Type: application/json
-    Authorization: Bearer <% PUT-YOUR-OPENAI-KEY-HERE %>
+module: src.client.agents.MagenticOneHander
+parameters:
+  key: 
+  model: gpt-4o
   body:
     temperature: 0
   prompter:
